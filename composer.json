@@ -1,0 +1,23 @@
+{
+    "name": "cnpscy\/laravel-editormd",
+    "description": "laravel + pandao/editor.md.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "小丑路人",
+            "email": "2278757482@qq.com"
+        }
+    ],
+  "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cnpscy\\LaravelEditormd\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
