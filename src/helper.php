@@ -1,5 +1,5 @@
 <?php
-    
+
 if (!function_exists("editor_css")) {
     function editor_css()
     {
